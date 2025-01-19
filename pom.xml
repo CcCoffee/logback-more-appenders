@@ -1,16 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.sndyuk</groupId>
+  <groupId>com.example</groupId>
   <artifactId>logback-more-appenders</artifactId>
-  <version>1.8.8</version>
+  <version>0.0.1</version>
   <name>logback-more-appenders</name>
   <description>logback appenders.</description>
-  <url>https://github.com/sndyuk/logback-more-appenders</url>
 
   <properties>
     <fluentd.logger.version>0.3.4</fluentd.logger.version>
     <logback.version>1.2.3</logback.version>
-    <jackson.version>2.12.3</jackson.version>
     <jdk.version>8</jdk.version>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
   </properties>
@@ -29,13 +27,6 @@
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-access</artifactId>
       <version>${logback.version}</version>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-cbor</artifactId>
-      <version>${jackson.version}</version>
       <optional>true</optional>
     </dependency>
 

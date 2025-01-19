@@ -35,8 +35,6 @@ import ch.qos.logback.core.spi.FilterReply;
  *  </filter>
  * }
  * </pre>
- * 
- * @author sndyuk
  */
 public class AppendersMarkerFilter extends AbstractMatcherFilter<ILoggingEvent> {
 
