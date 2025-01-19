@@ -4,7 +4,7 @@
   <!-- Fluend java -->
 
   <appender name="FLUENT_SYNC"
-    class="ch.qos.logback.more.appenders.DataFluentAppender">
+    class="ch.qos.logback.more.appenders.FluentdAppender">
 
     <!-- Tag for Fluentd. Farther information: http://docs.fluentd.org/articles/config-file -->
     <tag>debug</tag>
