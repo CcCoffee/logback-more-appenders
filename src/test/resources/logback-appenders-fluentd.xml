@@ -33,11 +33,6 @@
     <bufferCapacity>16777216</bufferCapacity> <!-- in bytes -->
     <timeout>10000</timeout> <!-- in milliseconds -->
 
-    <!--  [Optional] If true, Map Marker is expanded instead of nesting in the marker name -->
-    <flattenMapMarker>false</flattenMapMarker>
-    <!--  [Optional] default "marker" -->
-    <markerPrefix></markerPrefix>
-
     <!-- [Optional] Message encoder if you want to customize message -->
     <encoder>
       <pattern><![CDATA[%date{HH:mm:ss.SSS} [%thread] %-5level %logger{15}#%line %message]]></pattern>
